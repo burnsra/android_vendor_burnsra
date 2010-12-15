@@ -7,5 +7,7 @@ PRODUCT_NAME := gingerbread_green_inc
 PRODUCT_PACKAGE_OVERLAYS := vendor/burnsra/overlay/common
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/common
 
-PRODUCT_PACKAGES += ThemeDefaults
+##PRODUCT_COPY_FILES += \
+##    vendor/burnsra/prebuilt/common/bin/setdefcols.sh:system/bin/setdefcols.sh
 
+##PRODUCT_PACKAGES += ThemeDefaults
