@@ -1,1 +1,1 @@
-add_lunch_combo gingerbread_green_inc-eng
+add_lunch_combo gingerbread_inc-eng
