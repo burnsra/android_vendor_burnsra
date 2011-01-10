@@ -11,3 +11,7 @@ PRODUCT_PACKAGES += Torch
 ## common stuff ##
 PRODUCT_PACKAGE_OVERLAYS := vendor/burnsra/overlay/common
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/common
+
+
+PRODUCT_COPY_FILES += \
+    vendor/burnsra/prebuilt/common/etc/hosts:etc/hosts
