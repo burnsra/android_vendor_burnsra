@@ -12,6 +12,8 @@ PRODUCT_PACKAGES += Torch
 PRODUCT_PACKAGE_OVERLAYS := vendor/burnsra/overlay/common
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/common
 
+# T-Mobile theme engine
+include vendor/burnsra/products/themes.mk
 
 PRODUCT_COPY_FILES += \
     vendor/burnsra/prebuilt/common/etc/hosts:etc/hosts
