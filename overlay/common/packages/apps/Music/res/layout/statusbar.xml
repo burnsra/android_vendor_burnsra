@@ -49,9 +49,19 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         >
-        <TextView android:id="@+id/artistalbum"
+        <TextView android:id="@+id/album"
+            android:textAppearance="@android:style/TextAppearance.StatusBar.EventContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:paddingLeft="4dp"
+            />
+        <TextView android:id="@+id/artist"
             android:textAppearance="@android:style/TextAppearance.StatusBar.EventContent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
