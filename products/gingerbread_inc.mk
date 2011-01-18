@@ -16,8 +16,8 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/common
 # include vendor/burnsra/products/themes.mk
 
 # Set ro.modversion
-PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7-$(shell date +%Y%m%d%H%M)-Burns5-Inc
+#PRODUCT_PROPERTY_OVERRIDES += \
+#        ro.modversion=CyanogenMod-7-$(shell date +%Y%m%d%H%M)-Burns5-Inc
 
 PRODUCT_COPY_FILES += \
     vendor/burnsra/prebuilt/common/etc/hosts:etc/hosts
