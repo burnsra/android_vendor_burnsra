@@ -20,4 +20,4 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/common
 #        ro.modversion=CyanogenMod-7-$(shell date +%Y%m%d%H%M)-Burns5-Inc
 
 PRODUCT_COPY_FILES += \
-    vendor/burnsra/prebuilt/common/etc/hosts:etc/hosts
+    vendor/burnsra/prebuilt/common/etc/hosts:system/etc/hosts
