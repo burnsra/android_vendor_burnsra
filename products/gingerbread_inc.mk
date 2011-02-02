@@ -7,6 +7,8 @@ PRODUCT_NAME := gingerbread_inc
 PRODUCT_PACKAGES += FM
 # Include the Flashlight/Torch
 PRODUCT_PACKAGES += Torch
+# Build Gingerbread theme
+PRODUCT_PACKAGES += Gingerbread
 
 ## common stuff ##
 PRODUCT_PACKAGE_OVERLAYS := vendor/burnsra/overlay/common
