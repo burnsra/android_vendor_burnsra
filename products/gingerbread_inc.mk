@@ -17,9 +17,10 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/common
 # T-Mobile theme engine
 # include vendor/burnsra/products/themes.mk
 
-# Set ro.modversion
-#PRODUCT_PROPERTY_OVERRIDES += \
-#        ro.modversion=CyanogenMod-7-$(shell date +%Y%m%d%H%M)-Burns5-Inc
+# Build kernel
+PRODUCT_SPECIFIC_DEFINES += TARGET_PREBUILT_KERNEL=
+PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_DIR=htc-kernel-incrediblec
+PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_CONFIG=cyanogen_incrediblec_defconfig
 
 PRODUCT_COPY_FILES += \
     vendor/burnsra/prebuilt/common/etc/hosts:system/etc/hosts
