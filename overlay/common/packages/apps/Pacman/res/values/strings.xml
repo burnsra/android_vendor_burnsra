@@ -3,6 +3,15 @@
 	<string name="app_name">Market Apps Installer</string>
 	<string name="activity_title">Choose the apps to install</string>
 
+    <add-resource type="string" name="com.google.android.apps.books"></add-resource>
+    <add-resource type="string" name="com.google.android.apps.reader"></add-resource>
+    <add-resource type="string" name="com.google.android.apps.shopper"></add-resource>
+    <add-resource type="string" name="com.google.android.apps.finance"></add-resource>
+    <add-resource type="string" name="org.adwfreak.launcher"></add-resource>
+    <add-resource type="string" name="com.zehro.android.clockrEvolution"></add-resource>
+    <add-resource type="string" name="com.koushikdutta.rommanager.license"></add-resource>
+    <add-resource type="string" name="com.speedsoftware.rootexplorer"></add-resource>
+
     <string-array name="app_packages" translatable="false">
         <item>com.google.android.carhome</item>
         <item>com.facebook.katana</item>
@@ -46,6 +55,7 @@
     <string name="com_facebook_katana">Facebook</string>
     <string name="com_twitter_android">Twitter</string>
     <string name="com_google_android_carhome">Car Home</string>
+
     <string name="com.google.android.apps.books">Google Books</string>
     <string name="com.google.android.apps.reader">Google Reader</string>
     <string name="com.google.android.apps.shopper">Google Shopper</string>
