@@ -1,3 +1,5 @@
+CYANOGEN_RELEASE := true
+
 # Inherit cyanogenmod configurations
 $(call inherit-product, vendor/cyanogen/products/cyanogen_inc.mk)
 
