@@ -11,4 +11,5 @@ PRODUCT_PACKAGE_OVERLAYS := vendor/burnsra/overlay/common
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/common
 
 PRODUCT_COPY_FILES += \
-    vendor/burnsra/prebuilt/common/etc/hosts:system/etc/hosts
+    vendor/burnsra/prebuilt/common/etc/hosts:system/etc/hosts \
+    vendor/burnsra/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip
