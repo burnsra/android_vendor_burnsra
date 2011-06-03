@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">Market Apps Installer</string>
-	<string name="activity_title">Choose the apps to install</string>
+    <string name="app_name">Market Apps Installer</string>
+    <string name="activity_title">Choose the apps to install</string>
     <add-resource type="string" name="com.google.android.music"></add-resource>
     <add-resource type="string" name="com.google.android.apps.books"></add-resource>
     <add-resource type="string" name="com.google.android.apps.reader"></add-resource>
     <add-resource type="string" name="com.google.android.apps.shopper"></add-resource>
     <add-resource type="string" name="com.google.android.apps.finance"></add-resource>
+    <add-resource type="string" name="com.adobe.flashplayer"></add-resource>
+    <add-resource type="string" name="com.adobe.reader"></add-resource>
     <add-resource type="string" name="org.adwfreak.launcher"></add-resource>
     <add-resource type="string" name="com.zehro.android.clockrEvolution"></add-resource>
     <add-resource type="string" name="com.koushikdutta.rommanager.license"></add-resource>
     <add-resource type="string" name="com.speedsoftware.rootexplorer"></add-resource>
 
     <string-array name="app_packages" translatable="false">
-        <item>com.facebook.katana</item>
         <item>com.google.android.gm</item>
         <item>com.google.android.apps.chrometophone</item>
         <item>com.google.android.apps.unveil</item>
@@ -23,7 +24,6 @@
         <item>com.google.android.marvin.kickback</item>
         <item>com.google.android.marvin.soundback</item>
         <item>com.google.android.marvin.talkback</item>
-        <item>com.twitter.android</item>
         <item>com.google.android.street</item>
         <item>com.google.android.voicesearch</item>
         <item>com.google.android.youtube</item>
@@ -32,14 +32,18 @@
         <item>com.google.android.apps.reader</item>
         <item>com.google.android.apps.shopper</item>
         <item>com.google.android.apps.finance</item>
+        <item>com.facebook.katana</item>
+        <item>com.twitter.android</item>
+        <item>com.adobe.flashplayer</item>
+        <item>com.adobe.reader</item>
         <item>org.adwfreak.launcher</item>
         <item>com.zehro.android.clockrEvolution</item>
         <item>com.koushikdutta.rommanager.license</item>
         <item>com.speedsoftware.rootexplorer</item>
     </string-array>
 
-	<!-- Don't put these in an array. We find them by reflection. Relying on array order
-	     to be the same is unreliable as translations get out of sync. -->
+    <!-- Don't put these in an array. We find them by reflection. Relying on array order
+        to be the same is unreliable as translations get out of sync. -->
     <string name="com_google_android_gm">Gmail</string>
     <string name="com_google_android_apps_chrometophone">Google Chrome to Phone</string>
     <string name="com_google_android_apps_unveil">Google Goggles</string>
@@ -60,15 +64,17 @@
     <string name="com.google.android.apps.reader">Google Reader</string>
     <string name="com.google.android.apps.shopper">Google Shopper</string>
     <string name="com.google.android.apps.finance">Google Finance</string>
+    <string name="com.adobe.flashplayer">Adobe Flash Player</string>
+    <string name="com.adobe.reader">Adobe Reader</string>
     <string name="org.adwfreak.launcher">ADWLauncher EX</string>
     <string name="com.zehro.android.clockrEvolution">Clockr Evolution</string>
     <string name="com.koushikdutta.rommanager.license">ROM Manager Premium</string>
     <string name="com.speedsoftware.rootexplorer">Root Explorer</string>
 
-	<!-- Buttons -->
-	<string name="main_btn_ok">OK</string>
-	<string name="main_btn_selectall">Select All</string>
-	<string name="main_btn_cancel">Cancel</string>
+    <!-- Buttons -->
+    <string name="main_btn_ok">OK</string>
+    <string name="main_btn_selectall">Select All</string>
+    <string name="main_btn_cancel">Cancel</string>
 
     <!-- Alert Dialog -->
     <string name="alert_dialog_title">IMPORTANT: Read this!</string>
